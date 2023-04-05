@@ -1,0 +1,7 @@
+SvM...
+abc=SVMtrainedModel.ClassificationSVM;
+[label,score] = predict(abc,testip);
+xyz=SVMtrainedModel.ClassificationSVM;
+>> [label,score] = predict(abc,trainip);
+for round off:
+abc=round(variable name);
